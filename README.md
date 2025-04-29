@@ -5,3 +5,4 @@ Tradução de _Higurashi When They Cry Hou_ da _Higurashi Eternal_ adaptada para
 ## Créditos
 
 [Higurashi Eternal](https://higurashieternal.wordpress.com/) - Tradução do jogo.
+[Emerald Fansubs](https://efs-subs.blogspot.com/) - Revisão de texto.
