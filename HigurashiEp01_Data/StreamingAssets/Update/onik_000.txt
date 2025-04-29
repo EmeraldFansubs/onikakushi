@@ -133,7 +133,7 @@ void main()
 //　最寄りの町まで行けばあるにはあるが、自転車で１時間もかかる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　最寄りの町まで行けばあるにはあるが、自転車で１時間もかかる。",
-		   NULL, "A cidade mais próxima tem algumas dessas coisas, mas fica a uma hora de bicicleta.", Line_Normal);
+		   NULL, "A cidade mais próxima têm algumas dessas coisas, mas fica a uma hora de bicicleta.", Line_Normal);
 	ClearMessage();
 
 //　だが、考えてみればそれに不便を感じる必要はなかった￥
@@ -166,7 +166,7 @@ void main()
 //　今更ながらちょっと後悔￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今更ながらちょっと後悔。",
-		   NULL, "Apenas agora começo a ter um pouco de arrependimento.", Line_Normal);
+		   NULL, "Só agora começo a ter um pouco de arrependimento.", Line_Normal);
 	ClearMessage();
 
 //locate 3,7
@@ -209,7 +209,7 @@ void main()
 //　どんな過ちだって、許されないことはないはずだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どんな過ちだって、許されないことはないはずだ。",
-		   NULL, "Não importa quão ruim é o erro, não há nada que não possa ser perdoado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não importa quão ruim seja o erro, não há nada que não possa ser perdoado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -223,7 +223,7 @@ void main()
 //　次から気をつければいい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　次から気をつければいい。",
-		   NULL, "Você apenas tem de ser mais cuidadoso na próxima vez.", Line_Normal);
+		   NULL, "Você apenas tem que ser mais cuidadoso na próxima vez.", Line_Normal);
 	ClearMessage();
 
 //　...それでも彼女は謝り続けている￥
@@ -241,7 +241,7 @@ void main()
 //　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ。",
-		   NULL, "Eu não tenho ideia do que ela fez, mas mesmo que não possa ser consertado, isso é mais uma razão para perdoá-la.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não tenho ideia do que ela fez, e mesmo que não possa ser consertado, isso é mais uma razão para perdoá-la.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
